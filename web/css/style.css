@@ -323,6 +323,29 @@ h6 {
   visibility: hidden;
 }
 
+.nav-menu li.signout a {
+  color: #fff;
+  background: #f82249;
+  padding: 7px 22px;
+  border-radius: 50px;
+  border: 2px solid #f82249;
+  transition: all ease-in-out 0.3s;
+  font-weight: 500;
+  margin-left: 8px;
+  margin-top: 2px;
+  line-height: 1;
+  font-size: 13px;
+}
+
+.nav-menu li.signout a:hover {
+  background: none;
+}
+
+.nav-menu li.signout:hover a:before,
+.nav-menu li.signout.menu-active a:before {
+  visibility: hidden;
+}
+
 .nav-menu ul {
   margin: 4px 0 0 0;
   padding: 10px;
@@ -1354,6 +1377,82 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #buy-tickets #buy-ticket-modal .btn:hover {
+  background-color: #e0072f;
+}
+
+/*--------------------------------------------------------------
+# Buy Tickets Section
+--------------------------------------------------------------*/
+
+#signout {
+  padding: 60px 0;
+}
+
+#signout .card {
+  border: none;
+  border-radius: 5px;
+  transition: all  0.3s ease-in-out;
+  box-shadow: 0 10px 25px 0 rgba(6, 12, 34, 0.1);
+}
+
+#signout .card:hover {
+  box-shadow: 0 10px 35px 0 rgba(6, 12, 34, 0.2);
+}
+
+#signout .card hr {
+  margin: 25px 0;
+}
+
+#signout .card .card-title {
+  margin: 10px 0;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+#signout .card .card-price {
+  font-size: 48px;
+  margin: 0;
+}
+
+#signout .card ul li {
+  margin-bottom: 20px;
+}
+
+#signout .card .text-muted {
+  opacity: 0.7;
+}
+
+#signout .card .btn {
+  font-size: 15px;
+  border-radius: 50px;
+  padding: 10px 40px;
+  transition: all 0.2s;
+  background-color: #f82249;
+  border: 0;
+  color: #fff;
+}
+
+#signout .card .btn:hover {
+  background-color: #e0072f;
+}
+
+#signout #signout-modal input,
+#signout #signout-modal select {
+  border-radius: 0;
+}
+
+#signout #signout-modal .btn {
+  font-size: 15px;
+  border-radius: 50px;
+  padding: 10px 40px;
+  transition: all 0.2s;
+  background-color: #f82249;
+  border: 0;
+  color: #fff;
+}
+
+#signout #signout-modal .btn:hover {
   background-color: #e0072f;
 }
 
